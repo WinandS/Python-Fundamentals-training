@@ -27,7 +27,7 @@ class Test_dict_inverse(unittest.TestCase):
         d2 = dict_inverse(d)
 
         for item in d2.items():
-            print item[0], item[1]
+            print(item[0], item[1])
 
         self.assertEqual(len(d2), 3)
         self.assertEqual(len(d2[8400]), 3)

@@ -1,5 +1,3 @@
-import argparse
-
 def K2C(K):
 	return round((K-273.15),3)
 
