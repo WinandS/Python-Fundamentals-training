@@ -1,3 +1,6 @@
+from os.path import join
+
+
 def to_piglatin(word):
     i = 0
     dot = ''
@@ -29,4 +32,4 @@ if __name__ == "__main__":
                         outf.write(to_piglatin(word)+" ")
                     outf.write("\n")
 
-    main("piglatin_input.txt", "piglatin_output.txt")
+    main(join("resources", "piglatin_input.txt"), join("resources", "piglatin_output.txt"))
